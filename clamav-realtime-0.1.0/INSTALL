@@ -1,0 +1,25 @@
+# Installation directives for clamav-realtime
+# Build with GNU/GCC v4.7.3 or later
+
+# Dependencies :
+
+app-antivirus/clamav
+sys-libs/glibc
+sys-fs/inotify-tools
+x11-libs/libnotify
+
+# GNU GCC options :
+
+gcc -Wall -o clamav-realtime \
+`pkg-config --cflags --libs libnotify libclamav` clamav-realtime.c
+
+# Compilation directives
+
+# tar -xvjpf clamav-realtime-x.x.x.tar.bz2
+# cd clamav-realtime-x.x.x
+# make
+# make install && make clean
+
+# Now, you can run clamav-realtime like this,
+
+$ /usr/local/bin/clamav-realtime // require X, must be run as simple user

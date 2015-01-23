@@ -1,0 +1,16 @@
+# ChangeLog for app-antivirus/clamav-realtime
+# Copyright 1999-2013 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header:
+
+* clamav-realtime-0.0.1-r1 revision 1
+        (12 Nov 2013) jay <jaypeche@gmail.com>
+        + Initial version 
+	+ Use clamav,libnotify,inotify headers library
+	+ Makefile integration
+
+* clamav-realtime-0.1.0 revision 1
+        (22 Jan 2015) jay <jaypeche@gmail.com>
+        + Initial engine version
+
+
