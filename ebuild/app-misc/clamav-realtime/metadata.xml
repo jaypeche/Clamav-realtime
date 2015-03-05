@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pkgmetadata>
+  <herd>clamav-realtime</herd>
+	<use>
+	  <flag name="X gtk"> Default X notification dependencies </flag>
+	</use>
+    <maintainer>
+      <email>jaypeche@gmail.com</email>
+    </maintainer>
+  <longdescription>
+This utility is used to scan folder recursively in real time with ClamAV.
+  </longdescription>
+</pkgmetadata>

@@ -1,0 +1,8 @@
+# ChangeLog for app-misc/clamav-realtime
+# Copyright 1999-2013 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header:
+
+* clamav-realtime-0.0.1-r1 revision 1
+        (14 Nov 2013) jay <jaypeche@gmail.com>
+        + New Ebuild based on Makefile directives
