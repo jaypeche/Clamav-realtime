@@ -1,6 +1,8 @@
 ##############################################################################
 Thanks to :
 
+BASH script Author :  hackurx@doc.ubuntu-fr.org/clamav
+
 edgarjacobs@openclassrooms.com # Help for while loop.
 breizhbugs@openclassrooms.com # Help for path to scan, quarantine.
 MarcMongenet@openclassrooms.com # Help for inotify condition CLOSE_WRITE
