@@ -1,6 +1,7 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header:
+# $Header: https://raw.githubusercontent.com/jaypeche/Clamav-realtime/master/ebuild/app-misc/clamav-realtime/clamav-realtime-0.1.0.ebuild
+
 
 EAPI="4"
 
