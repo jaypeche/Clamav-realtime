@@ -93,7 +93,7 @@ printf("Loaded %u signatures.\n", sigs);
 /* Create quarantine */
 struct stat file_stat;
 char path_quarantine[PATH_MAX];
-strcpy(path_quarantine, targetdir);
+strcpy(path_quarantine, "/tmp");
 strcat(path_quarantine, "/.quarantine/");
 
 if ( stat(path_quarantine, &file_stat) !=0) {
