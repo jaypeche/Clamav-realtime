@@ -1,8 +1,0 @@
-> Create a function to notify filesystem changes
--->WORK but not recursive
-
-> TODO : Recursive Loop 
-
-> CLAMAV : Use return code to launch analysis or not
-
-> Create function like : inotify initialization, scan loop, cl_initialization, cl_updatedb...

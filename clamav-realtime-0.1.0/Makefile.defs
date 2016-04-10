@@ -1,9 +1,0 @@
-# Makefile.defs for clamav-realtime, Gentoo Linux specs.
-
-OS=$(shell uname)
-DESTDIR="${D}"
-PREFIX=/usr/local/bin
-PIXMAPS=/usr/share/pixmaps
-APPS=/usr/share/applications
-DOCDIR=/usr/share/doc
-DOCFILES=ChangeLog Copying BUGS INSTALL README THANKS TODO 
