@@ -6,3 +6,7 @@
 * clamav-realtime-0.0.1-r1 revision 1
         (14 Nov 2013) jay <jaypeche@gmail.com>
         + New Ebuild based on Makefile directives
+
+* clamav-realtime-0.1.0-r1 revision 1
+        (24 Mar 2016) jay <jaypeche@gmail.com>
+        + GIT Ebuild based on Makefile directives
