@@ -1,0 +1,11 @@
+--- clamav-realtime.c.orig	2016-03-24 19:10:06.500276769 +0000
++++ clamav-realtime.c	2016-03-20 20:43:58.081730025 +0000
+@@ -93,7 +93,7 @@
+ /* Create quarantine */
+ struct stat file_stat;
+ char path_quarantine[PATH_MAX];
+-strcpy(path_quarantine, "/tmp");
++strcpy(path_quarantine, targetdir);
+ strcat(path_quarantine, "/.quarantine/");
+ 
+ if ( stat(path_quarantine, &file_stat) !=0) {
