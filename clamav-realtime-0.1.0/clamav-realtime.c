@@ -105,12 +105,12 @@ if ( stat(path_quarantine, &file_stat) !=0) {
 
 /* build engine */
 if((ret = cl_engine_compile(engine)) != CL_SUCCESS) {
-printf("Database initialization error: %s\n", cl_strerror(ret));;
-    cl_engine_free(engine);
-return 2;
-} else {
-        printf("Engine initialization success !\n\n");
-}
+	printf("Database initialization error: %s\n", cl_strerror(ret));;
+    	cl_engine_free(engine);
+	return 2;
+	} else {
+        	printf("Engine initialization success !\n\n");
+	}	
 
 while (( len = read( fdinit, buf, BUF_LEN )) > 0 ) {
 
