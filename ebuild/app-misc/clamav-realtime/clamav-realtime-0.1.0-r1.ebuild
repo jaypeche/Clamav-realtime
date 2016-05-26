@@ -12,7 +12,7 @@ HOMEPAGE="http://wiki.pingwho.org"
 
 EGIT_REPO_URI="git://github.com/jaypeche/Clamav-realtime.git"
 EGIT_BRANCH="master"
-EGIT_COMMIT="v0.1.0"
+EGIT_COMMIT="master"
 GIT_SRC_PREFIX="${S}/${PN}-${PV}"
 
 LICENSE="GPL-3"
