@@ -60,7 +60,7 @@ int fd, ret;
 unsigned int sigs = 0;
 unsigned long int size = 0;
 const char *virname;
-const char *icon = "/usr/share/pixmaps/clamav-realtime.png";
+char *icon = "/usr/share/pixmaps/clamav-realtime.png";
 struct cl_engine *engine;
 
 /* Initialisation libClamAV */
@@ -70,11 +70,7 @@ return 2;
 }
 
 /* Send Loading Notification */
-                printf ("\a");
-                notify_init ("ClamAV Realtime loading...");
-                NotifyNotification * Loading = notify_notification_new("ClamAV Realtime\n", "Loading...", icon);
-		notify_notification_show (Loading, NULL);
-
+ 	show_notify_loading();
 
 /* New engine Test */
 if(!(engine = cl_engine_new())) {
@@ -202,11 +198,8 @@ while (( len = read( fdinit, buf, BUF_LEN )) > 0 ) {
 					printf("No virus detected\n\n");
 					close(fd);
 
-					/* Send Notification */
-				        printf ("\a");
-					notify_init ("ClamAV Realtime");
-					NotifyNotification * nothreat = notify_notification_new ("ClamAV Realtime", "No threat found !", icon);
-					notify_notification_show (nothreat, NULL);
+					/* Send Notification nothreat */
+					show_notify_nothreat();
 
 					} else {
 						printf("Error: %s\n", cl_strerror(ret));
