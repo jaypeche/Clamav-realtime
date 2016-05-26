@@ -8,7 +8,7 @@ include Makefile.defs
 
 CC=		gcc
 STD=		_GNU_SOURCE
-OBJS=		$(NAME).o
+OBJS=		main.o
 LIBS=		-lnotify -lclamav
 PKGCONFIG=	`pkg-config --cflags --libs libnotify libclamav`
 
