@@ -31,13 +31,13 @@ install:
 		install -d $(DESTDIR)/$(PIXMAPS)
 		@cp files/$(NAME).png $(DESTDIR)/$(PIXMAPS)
 		install -d $(DESTDIR)/$(APPS)
-		@cp files/$(NAME).desktop $(DESTDIR)/$(APPS)				
+		@cp files/$(NAME).desktop $(DESTDIR)/$(APPS)
 		install -d $(DESTDIR)/$(DOCDIR)/$(NAME)-$(VERSION)
 		for doc in $(DOCFILES); do \
 			cp $$doc $(DESTDIR)/$(DOCDIR)/$(NAME)-$(VERSION); \
 			bzip2 -9 $(DESTDIR)/$(DOCDIR)/$(NAME)-$(VERSION)/$$doc; \
 		done
-				
+
 clean:
 		@echo Cleaning sources...
 		rm -f $(NAME) *.o core
