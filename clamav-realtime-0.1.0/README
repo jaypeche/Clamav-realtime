@@ -1,5 +1,5 @@
 
-"Clamav-realtime" is a program designed to protect you from threats to your home directory.
+"Clamav-realtime" is a program designed to protect you from threats in your home directory.
 
 
 As soon as a new file is written, it is sent to the virus scanning engine which put in quarantine in case it is detected as a threat.
