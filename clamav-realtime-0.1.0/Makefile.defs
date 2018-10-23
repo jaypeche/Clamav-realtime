@@ -2,8 +2,8 @@
 
 OS=$(shell uname)
 DESTDIR="${D}"
-PREFIX=/usr/local/bin
+PREFIX=/usr/bin
 PIXMAPS=/usr/share/pixmaps
 APPS=/usr/share/applications
 DOCDIR=/usr/share/doc
-DOCFILES=ChangeLog Copying BUGS INSTALL README THANKS TODO 
+DOCFILES=ChangeLog Copying BUGS INSTALL README THANKS TODO
