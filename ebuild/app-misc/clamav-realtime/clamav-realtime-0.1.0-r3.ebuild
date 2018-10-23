@@ -15,9 +15,6 @@ EGIT_BRANCH="master"
 EGIT_COMMIT="master"
 GIT_SRC_PREFIX="${S}/${PN}-${PV}"
 
-# Fix FHS gentoo policy
-#DOCS="/usr/share/doc/${PF}"
-
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~arm"
@@ -58,7 +55,6 @@ src_compile() {
 src_install() {
     cd "${GIT_SRC_PREFIX}"
     emake DESTDIR="${D}" install || die "einstall failed"
-    einstalldocs
 }
 
 pkg_postinst() {
