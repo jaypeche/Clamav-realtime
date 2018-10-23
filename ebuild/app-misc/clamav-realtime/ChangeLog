@@ -10,3 +10,12 @@
 * clamav-realtime-0.1.0-r1 revision 1
         (24 Mar 2016) jay <jaypeche@gmail.com>
         + GIT Ebuild based on Makefile directives
+
+* clamav-realtime-0.1.0-r2 revision 2
+        (24 May 2018) jay <jaypeche@gmail.com>
+        + xdg-utils eclass
+
+* clamav-realtime-0.1.0-r3 revision 3
+        (29 May 2018) jay <jaypeche@gmail.com>
+        + fix categories of .desktop launcher
+	+ update dependencies version
