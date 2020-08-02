@@ -148,7 +148,7 @@ while (( len = read( fdinit, buf, BUF_LEN )) > 0 ) {
 		}
 
 		/* Scan engine */
-		if((ret = cl_scandesc(fd, &virname, &size, engine, CL_SCAN_STDOPT)) == CL_VIRUS) {
+		if((ret = cl_scandesc(fd, filename, &virname, &size, engine, &options)) == CL_VIRUS) {
 			printf("Virus detected: %s\n", virname);
 			close(fd);
 
