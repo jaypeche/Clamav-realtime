@@ -62,6 +62,7 @@ unsigned long int size = 0;
 const char *virname;
 char *icon = "/usr/share/pixmaps/clamav-realtime.png";
 struct cl_engine *engine;
+struct cl_scan_options options;
 
 /* Initialisation libClamAV */
 if((ret = cl_init(CL_INIT_DEFAULT)) != CL_SUCCESS) {
