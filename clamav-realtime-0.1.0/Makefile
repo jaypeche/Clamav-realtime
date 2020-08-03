@@ -34,7 +34,7 @@ install:
 		install -d $(DESTDIR)/$(APPS)
 		@cp files/$(NAME).desktop $(DESTDIR)/$(APPS)
 		install -d $(DESTDIR)/$(DOCDIR)/$(NAME)-$(VERSION)-$(REVISION)
-		for doc in $(DOCFILES); do \
+		for doc in $(DOCFILES); do
 			cp $$doc $(DESTDIR)/$(DOCDIR)/$(NAME)-$(VERSION)-$(REVISION)
 		done
 
