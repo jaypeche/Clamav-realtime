@@ -3,7 +3,6 @@
 
 NAME=clamav-realtime
 VERSION=0.1.0
-REVISION=r3
 
 include Makefile.defs
 
@@ -33,9 +32,9 @@ install:
 		@cp files/$(NAME).png $(DESTDIR)/$(PIXMAPS)
 		install -d $(DESTDIR)/$(APPS)
 		@cp files/$(NAME).desktop $(DESTDIR)/$(APPS)
-		install -d $(DESTDIR)/$(DOCDIR)/$(NAME)-$(VERSION)-$(REVISION)
+		install -d $(DESTDIR)/$(DOCDIR)/$(NAME)-$(VERSION)
 		for doc in $(DOCFILES); do \
-			cp $$doc $(DESTDIR)/$(DOCDIR)/$(NAME)-$(VERSION)-$(REVISION);
+			cp $$doc $(DESTDIR)/$(DOCDIR)/$(NAME)-$(VERSION);
 		done
 
 clean:
@@ -47,5 +46,5 @@ clobber: clean
 		rm -f $(PREFIX)/$(NAME)
 		rm -f $(PIXMAPS)/$(NAME).png
 		rm -f $(APPS)/$(NAME).desktop
-		[ -e $(DOCDIR)/$(NAME)-$(VERSION)-$(REVISION) ] && rm -Rf $(DOCDIR)/$(NAME)-$(VERSION)-$(REVISION);
+		[ -e $(DOCDIR)/$(NAME)-$(VERSION) ] && rm -Rf $(DOCDIR)/$(NAME)-$(VERSION);
 		@echo $(NAME) was successfully uninstalled !
