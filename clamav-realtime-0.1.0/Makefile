@@ -35,7 +35,7 @@ install:
 		install -d $(DESTDIR)/$(DOCDIR)/$(NAME)-$(VERSION)
 		for doc in $(DOCFILES); do \
 			cp $$doc $(DESTDIR)/$(DOCDIR)/$(NAME)-$(VERSION);
-		done
+		done;
 
 clean:
 		@echo Cleaning sources...
