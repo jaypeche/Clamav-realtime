@@ -14,7 +14,7 @@ PKGCONFIG=	`pkg-config --cflags --libs libnotify libclamav`
 
 .c.o:
 		@echo Compiling sources...
-		$(CC) -c -Wmisleading-indentation $(CFLAGS) -D$(STD) $(PKGCONFIG) $<
+		$(CC) -c -Wall $(CFLAGS) -D$(STD) $(PKGCONFIG) $<
 
 build: $(OBJS)
 		@echo Building executable...
