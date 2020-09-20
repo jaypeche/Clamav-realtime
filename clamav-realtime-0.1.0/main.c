@@ -148,6 +148,11 @@ while (( len = read( fdinit, buf, BUF_LEN )) > 0 ) {
 		return 2;
 		}
 
+		/* scan file descriptor */
+    		memset(&options, 0, sizeof(struct cl_scan_options));
+    		options.parse |= ~0;                           /* enable all parsers */
+    		options.general |= CL_SCAN_GENERAL_HEURISTICS; /* enable heuristic alert options */
+
 		/* Scan engine */
 		if((ret = cl_scandesc(fd, filename, &virname, &size, engine, &options)) == CL_VIRUS) {
 			printf("Virus detected: %s\n", virname);
