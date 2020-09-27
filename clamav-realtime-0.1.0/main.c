@@ -155,7 +155,7 @@ while (( len = read( fdinit, buf, BUF_LEN )) > 0 ) {
 
 		/* Scan engine */
 		if((ret = cl_scandesc(fd, filename, &virname, &size, engine, &options)) == CL_VIRUS) {
-			printf("Virus detected: %s\n", virname);
+			printf("Virus detected : %s\n", virname);
 			close(fd);
 
 			/* Move to quarantine */
