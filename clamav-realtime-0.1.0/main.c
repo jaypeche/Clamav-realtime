@@ -198,6 +198,7 @@ while (( len = read( fdinit, buf, BUF_LEN )) > 0 ) {
 		        printf ("\a");
 			notify_init ("ClamAV Realtime");
 			NotifyNotification * threat = notify_notification_new ("ClamAV Realtime", body_threat, icon);
+			notify_notification_set_urgency (threat, NOTIFY_URGENCY_CRITICAL);
 			notify_notification_show (threat, NULL);
 			} else {
 				if(ret == CL_CLEAN) {
