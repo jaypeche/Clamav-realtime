@@ -1,0 +1,16 @@
+diff -urN clamav-realtime-0.1.0.orig/Makefile clamav-realtime-0.1.0/Makefile
+--- clamav-realtime-0.1.0.orig/Makefile	2020-09-15 20:10:53.426862313 +0200
++++ clamav-realtime-0.1.0/Makefile	2020-09-15 20:19:19.729975990 +0200
+@@ -32,10 +32,9 @@
+ 		@cp files/$(NAME).png $(DESTDIR)/$(PIXMAPS)
+ 		install -d $(DESTDIR)/$(APPS)
+ 		@cp files/$(NAME).desktop $(DESTDIR)/$(APPS)
+-		install -d $(DESTDIR)/$(DOCDIR)/$(NAME)-$(VERSION)
++		install -d $(DESTDIR)/$(DOCDIR)/$(PF)
+ 		for doc in $(DOCFILES); do \
+-			cp $$doc $(DESTDIR)/$(DOCDIR)/$(NAME)-$(VERSION); \
+-			bzip2 -9 $(DESTDIR)/$(DOCDIR)/$(NAME)-$(VERSION)/$$doc; \
++			cp $$doc $(DESTDIR)/$(DOCDIR)/$(PF); \
+ 		done
+ 
+ clean:

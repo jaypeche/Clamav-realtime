@@ -1,0 +1,9 @@
+diff -urN clamav-realtime-0.0.1.orig/Makefile.defs clamav-realtime-0.0.1/Makefile.defs
+--- clamav-realtime-0.0.1.orig/Makefile.defs	2013-11-14 17:26:18.000000000 +0100
++++ clamav-realtime-0.0.1/Makefile.defs	2013-11-14 19:57:59.720764800 +0100
+@@ -1,4 +1,4 @@
+-# Makefile.defs for clamav-realtime, Gentoo Linux specs.
++# Makefile.defs for clamav-realtime version 0.1.0, with Gentoo Linux specs.
+ 
+ OS=$(shell uname)
+ 

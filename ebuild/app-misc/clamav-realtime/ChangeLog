@@ -1,0 +1,36 @@
+# ChangeLog for app-misc/clamav-realtime
+# Copyright 1999-2020 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header:
+
+* clamav-realtime-0.0.1-r1 revision 1
+        (14 Nov 2013) jay <jaypeche@gmail.com>
+        + New Ebuild based on Makefile directives
+
+* clamav-realtime-0.1.0-r1 revision 1
+        (24 Mar 2016) jay <jaypeche@gmail.com>
+        + GIT Ebuild based on Makefile directives
+
+* clamav-realtime-0.1.0-r2 revision 2
+        (24 May 2018) jay <jaypeche@gmail.com>
+        + xdg-utils eclass
+
+* clamav-realtime-0.1.0-r3 revision 3
+        (29 May 2018) jay <jaypeche@gmail.com>
+        + fix categories of .desktop launcher
+	+ update dependencies version
+
+* clamav-realtime-0.1.0-r4 revision 4
+        (23 Aug 2020) jay <jaypeche@gmail.com>
+        + fix git-r3 repository
+	+ fix gentoo fhs docdir
+	+ update dependencies version
+
+* clamav-realtime-0.1.0-r5 revision 5
+        (30 Aug 2020) jay <jaypeche@gmail.com>
+        + fhs fix
+        + update dependencies version
+
+* clamav-realtime-0.1.0-r6 revision 6
+        (15 Nov 2020) jay <jaypeche@gmail.com>
+        + GitLab repository migration
