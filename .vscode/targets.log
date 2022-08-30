@@ -1,0 +1,377 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Aug 25 14:04:56 2022
+
+# Variables
+
+# environment
+JAVA_HOME = /etc/java-config-2/current-system-vm
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+CSF_UnitsDefinition = /usr/share/opencascade/resources/UnitsAPI/Units.dat
+# environment
+CSF_XmlOcafResource = /usr/share/opencascade/resources/XmlOcafResource
+# environment
+VSCODE_CWD = /home/jay
+# environment
+CSF_XCAFDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+CSF_PluginDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+SNES_EMULATION_PREFIX = zsnes
+# environment
+CASROOT = /usr
+# environment
+PRIMUS_PREFIX = primusrun
+# environment
+GCC_SPECS = 
+# environment
+DISTCC_SSH = 
+# environment
+GDM_LANG = fr_FR.utf8
+# default
+MAKE_COMMAND := make
+# environment
+UNCACHED_ERR_FD = 
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+DISTCC_TCP_CORK = 
+# environment
+DISTCC_SAVE_TEMPS = 0
+# environment
+DCC_EMAILLOG_WHOM_TO_BLAME = 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/jay/git/Clamav-realtime
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+DISTCC_ENABLE_DISCREPANCY_EMAIL = 
+# environment
+MAIL = /var/mail/jay
+# environment
+XDG_DATA_DIRS = /usr/share/gnome:/usr/local/share:/usr/share:/usr/share/gdm
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/jay/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+SEGA_EMULATION_PREFIX = mg
+# environment
+CSF_ShadersDirectory = /usr/share/opencascade/resources/Shaders
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/jay/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/jay/git/Clamav-realtime
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+LESSOPEN = |lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+CSF_MDTVTexturesDirectory = /usr/share/opencascade/resources/Textures
+# environment
+XDG_CONFIG_DIRS = /etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XCURSOR_THEME = OSX-ElCap
+# environment
+XDG_SESSION_DESKTOP = gnome
+# makefile
+MAKEFILE_LIST := 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 229532
+# environment
+CSF_GraphicShr = /usr/lib64/opencascade/libTKOpenGl.so
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+DISTCC_FALLBACK = 1
+# environment
+CSF_XSMessage = /usr/share/opencascade/resources/XSMessage
+# environment
+MANPAGER = manpager
+# environment
+SESSION_MANAGER = local/dbox2:@/tmp/.ICE-unix/1919,unix/dbox2:/tmp/.ICE-unix/1919
+# automatic
+*F = $(notdir $*)
+# environment
+DISTCC_VERBOSE = 0
+# environment
+MANPATH = /etc/java-config-2/current-system-vm/man:/usr/share/gcc-data/x86_64-pc-linux-gnu/11.3.0/man:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.38/man:/etc/java-config-2/current-system-vm/man/:/usr/lib64/php7.2/man/:/usr/lib64/php7.4/man/:/usr/lib64/php8.1/man/:/usr/local/share/man:/usr/share/man:/usr/lib/rust/man:/usr/lib/llvm/14/share/man
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+CSF_SHMessage = /usr/share/opencascade/resources/SHMessage
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"fr","availableLanguages":{"*":"fr"},"_languagePackId":"8a64477f85858ca31d1daacec93dba94.fr","_translationsConfigFile":"/home/jay/.config/Code/clp/8a64477f85858ca31d1daacec93dba94.fr/tcf.json","_cacheRoot":"/home/jay/.config/Code/clp/8a64477f85858ca31d1daacec93dba94.fr","_resolvedLanguagePackCoreLocation":"/home/jay/.config/Code/clp/8a64477f85858ca31d1daacec93dba94.fr/e4503b30fc78200f846c62cf8091b76ff5547662","_corruptedFile":"/home/jay/.config/Code/clp/8a64477f85858ca31d1daacec93dba94.fr/corrupted.info","_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+INFOPATH = /usr/share/gcc-data/x86_64-pc-linux-gnu/11.3.0/info:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.38/info:/usr/share/info:/usr/share/info/emacs-28
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+SHLVL = 1
+# environment
+CG_COMPILER_EXE = /opt/bin/cgc
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin:/usr/lib/llvm/14/bin:/opt/nvidia-cg-toolkit/bin:/usr/games/bin:/usr/lib64/opencascade/bin
+# environment
+MOZ_GMP_PATH = /usr/lib64/nsbrowser/plugins/gmp-gmpopenh264/system-installed
+# default
+MAKEFILES := 
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+ROOTPATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin:/usr/lib/llvm/14/bin:/opt/nvidia-cg-toolkit/bin
+# environment
+INVOCATION_ID = 997851428b154fc084bcc3311e7d1b98
+# environment
+CSF_StandardLiteDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+CSF_STEPDefaults = /usr/share/opencascade/resources/XSTEPResource
+# automatic
+?F = $(notdir $?)
+# environment
+OPENCL_PROFILE = nvidia
+# environment
+DESKTOP_AUTOSTART_ID = 10556d8f07d1d0c8e6166141403567288200000019190046
+# environment
+GSETTINGS_BACKEND = dconf
+# environment
+XDG_CURRENT_DESKTOP = GNOME
+# environment
+CSF_MIGRATION_TYPES = /usr/share/opencascade/resources/StdResource/MigrationSheet.txt
+# environment
+JAVAC = /etc/java-config-2/current-system-vm/bin/javac
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+LESS = -R -M --shift 5
+# environment
+DESKTOP_SESSION = gnome
+# environment
+CG_LIB_PATH = /opt/nvidia-cg-toolkit/lib:/opt/nvidia-cg-toolkit/lib64
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = jay
+# environment
+VBOX_APP_HOME = /usr/lib64/virtualbox
+# environment
+CONFIG_PROTECT_MASK = /etc/sandbox.d /etc/php/cli-php7.2/ext-active/ /etc/php/cgi-php7.2/ext-active/ /etc/php/apache2-php7.2/ext-active/ /etc/php/cli-php7.4/ext-active/ /etc/php/cgi-php7.4/ext-active/ /etc/php/apache2-php7.4/ext-active/ /etc/php/fpm-php7.4/ext-active/ /etc/php/phpdbg-php7.4/ext-active/ /etc/php/cli-php8.1/ext-active/ /etc/php/cgi-php8.1/ext-active/ /etc/php/apache2-php8.1/ext-active/ /etc/php/fpm-php8.1/ext-active/ /etc/php/phpdbg-php8.1/ext-active/ /etc/fonts/fonts.conf /etc/gentoo-release /etc/gconf /etc/terminfo /etc/dconf /etc/ca-certificates.conf /etc/texmf/web2c /etc/texmf/language.dat.d /etc/texmf/language.def.d /etc/texmf/updmap.d /etc/revdep-rebuild
+# environment
+VULKAN_PREFIX = pvkrun
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /etc/xdg/autostart/cairo-dock.desktop
+# environment
+CONFIG_PROTECT = /usr/share/gnupg/qualified.txt /usr/share/easy-rsa /usr/share/config
+# makefile
+.DEFAULT_GOAL := 
+# environment
+SYSTEMD_EXEC_PID = 1919
+# environment
+EDITOR = /bin/nano
+# environment
+DISPLAY = :0
+# environment
+GTK_MODULES = canberra-gtk-module
+# environment
+USER = jay
+# default
+MAKE_VERSION := 4.3
+# environment
+WINDOWS_EMULATION_PREFIX = wine
+# environment
+MANAGERPID = 1863
+# environment
+CG_INC_PATH = /opt/nvidia-cg-toolkit/include
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2157
+# environment
+OPENGL_PROFILE = xorg-x11
+# environment
+PAGER = /usr/bin/less
+# environment
+VGL_READBACK = pbo
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+MSX_EMULATION_PREFIX = openmsx
+# environment
+QT_GRAPHICSSYSTEM = raster
+# environment
+CSF_IGESDefaults = /usr/share/opencascade/resources/XSTEPResource
+# environment
+JOURNAL_STREAM = 8:29589
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/jay
+# environment
+QT_IM_MODULE = ibus
+# environment
+JDK_HOME = /etc/java-config-2/current-system-vm
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+ANT_HOME = /usr/share/ant
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-c3bd005c-1.70.2-main.sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/jay
+# environment
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+CSF_StandardDefaults = /usr/share/opencascade/resources/StdResource
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = gnome
+# environment
+OPTIMUS_PREFIX = optirun -b none
+# variable set hash-table stats:
+# Load=146/1024=14%, Rehash=0, Collisions=8/173=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2053, inode 11771912): 8 files, no impossibilities.
+
+# 8 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 16 / storage = 177 B / avg = 11 B
+# current buf: size = 8162 B / used = 177 B / count = 16 / avg = 11 B
+
+# strcache performance: lookups = 19 / hit rate = 15%
+# hash-table stats:
+# Load=16/8192=0%, Rehash=0, Collisions=0/19=0%
+# Finished Make data base on Thu Aug 25 14:04:56 2022
+
+ 
