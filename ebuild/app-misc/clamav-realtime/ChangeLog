@@ -34,3 +34,7 @@
 * clamav-realtime-0.1.0-r6 revision 6
         (15 Nov 2020) jay <jaypeche@gmail.com>
         + GitLab repository migration
+
+* clamav-realtime-0.1.0-r7 revision 6
+        (15 Nov 2020) jay <jaypeche@gmail.com>
+        + cleaning ebuild
